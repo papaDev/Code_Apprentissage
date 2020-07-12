@@ -1,0 +1,21 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<script>
+			function askNumber(){
+		
+				var valeur;
+		
+				do{
+					valeur = prompt('Saisir un nombre : ');
+				}while(isNaN(valeur));
+		
+				return valeur;
+			}
+
+			alert('Le nombre est : ' + askNumber());
+		</script>
+	</body>
+</html>
